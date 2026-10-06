@@ -1,0 +1,32 @@
+{
+  "name": "testunofficial",
+  "version": "1.0.0",
+  "description": "Нет описания.",
+  "author": "merka",
+  "keywords": [
+    "blockmine",
+    "blockmine-plugin",
+    "minecraft",
+    "mineflayer"
+  ],
+  "botpanel": {
+    "main": "index.js",
+    "categories": [],
+    "supportedHosts": [],
+    "dependencies": [],
+    "settings": {
+      "helloMessage": {
+        "type": "string",
+        "label": "Сообщение приветствия",
+        "description": "Используйте {targetUser} и {user.username} для подстановок.",
+        "default": "Привет, {targetUser}, от {user.username}!"
+      }
+    },
+    "icon": "check",
+    "displayName": "testunofficial"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmeerrkkaa/testunofficial"
+  }
+}
